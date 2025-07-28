@@ -30,7 +30,7 @@ logging.basicConfig(
 CHANNEL_ID = os.getenv('CHANNEL_ID')
 NID_AUT = os.getenv('NID_AUT')
 NID_SES = os.getenv('NID_SES')
-RECORD_DIR = os.getenv('RECORD_DIR', '/volume1/recordings/chzzk')  # DSM 기본 경로
+RECORD_DIR = os.getenv('RECORD_DIR', './recordings')  # DSM 기본 경로
 CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '60'))  # 오프라인 체크 간격 (초)
 RETRY_COUNT = int(os.getenv('RETRY_COUNT', '3'))  # 녹화 실패 시 재시도 횟수
 

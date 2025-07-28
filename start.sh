@@ -6,7 +6,7 @@ echo "치지직 자동 녹화기를 시작합니다..."
 
 # 가상환경 활성화
 if [ -d "venv" ]; then
-    source venv/bin/activate
+    sh ./venv/bin/activate
     echo "가상환경 활성화됨"
 else
     echo "⚠️  가상환경이 없습니다. install.sh를 먼저 실행해주세요."
